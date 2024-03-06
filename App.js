@@ -23,10 +23,12 @@ import Signup from './components/week3/Signup';
 import Resort from './screens/week3/Resort';
 import { PaperProvider } from 'react-native-paper';
 import TestPaper from './screens/week4/TestPaper';
+import Health from './screens/week5/Health';
+import ChartKitScreen from './screens/week5/ChartKitScreen';
 
 export default function App() {
   return (
-    //<Extra />
+  //<Extra />
   // <View style = {{ flex:1, marginTop :25 }}>
   //     <TextInput
   //       keyboardType = "email-address"
@@ -63,9 +65,11 @@ export default function App() {
   //     <Greeting name= 'Valeera' />
   //   </View>
   // </View>
-  <Resort />
+  //<Resort />
+  // <Health />
   // <PaperProvider>
   //   <TestPaper />
   // </PaperProvider>
+  <ChartKitScreen />
    );
  }
