@@ -25,6 +25,8 @@ import { PaperProvider } from 'react-native-paper';
 import TestPaper from './screens/week4/TestPaper';
 import Health from './screens/week5/Health';
 import ChartKitScreen from './screens/week5/ChartKitScreen';
+import Home from './screens/week6/Home';
+import FlatListExample from './screens/week6/FlatListExample';
 
 export default function App() {
   return (
@@ -70,6 +72,8 @@ export default function App() {
   // <PaperProvider>
   //   <TestPaper />
   // </PaperProvider>
-  <ChartKitScreen />
+  // <ChartKitScreen />
+  <Home />
+  //<FlatListExample />
    );
  }
