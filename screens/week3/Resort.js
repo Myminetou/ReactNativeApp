@@ -9,7 +9,6 @@ import Section6 from '../../components/week3/Section6';
 import Section7 from '../../components/week3/Section7';
 import Section8 from '../../components/week3/Section8';
 
-
 export default function Resort() {
     return (
         <ScrollView>
