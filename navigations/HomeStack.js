@@ -18,8 +18,6 @@ import Resort from '../screens/week3/Resort';
 import Health from '../screens/week5/Health';
 
 
-
-
 const Stack = createStackNavigator();
 
 export default function HomeStack() {
