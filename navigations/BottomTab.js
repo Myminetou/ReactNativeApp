@@ -2,7 +2,7 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from '../screens/week6/Home';
 import Ant from '../screens/week7/Ant';
-
+import AuthStack from '../navigations/AuthStack';
 
 import { FontAwesome } from "@expo/vector-icons";
 import Bird from '../screens/week7/Bird';
@@ -47,6 +47,16 @@ export default function BottomTab() {
               tabBarIcon: ({ color, size }) => ( <FontAwesome name="paw" color={color} size={size} /> ),
             }}
           />
+          <Tab.Screen
+        name="AuthStack"
+        component={AuthStack}
+        options={{
+          tabBarLabel: "บัญชี",
+          tabBarIcon: ({ color, size }) => (<FontAwesome name="user" color={color} size={size} />),
+          headerShown: false,
+        }}
+      />
+
         </Tab.Navigator>
       );
 }
